@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form method="POST" action="{{ url_for('new_game') }}" class="justify-content-md-left">
+        <div class="input-group mb-3 col col-lg-8"">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">What's your name?</span>
+            </div>
+            <input type="text" class="form-control" name="player">
+            <div class="input-group-append">
+                <input class="btn btn-primary" type="submit" value="Start the game">
+            </div>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+        <strong class="mr-2">Question {{ riddle_num + 1 }}:</strong>
+        <em>{{ question }}</em>
+    </div>
+    <form method="POST" class="row">
+        <div class="input-group mb-3 col col-lg-8"">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Your answer:</span>
+            </div>
+            <input type="text" class="form-control" name="answer">
+            <div class="input-group-append">
+                <input class="btn btn-primary" type="submit" value="Answer the riddle">
+            </div>
+        </div>
+    </form>
+{% endblock %}
