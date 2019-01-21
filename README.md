@@ -40,9 +40,7 @@ jQuery
 
 ## Testing
 
-Create test.py
-Write a test in test.py
-Write the code to pass the test in run.py
+I played the game repeatedly under different names to see if all the notifications came up and to verify the leaderboard was working. I also tested the game on various devices
 
 ## Deployment
 I tried to use heroku ps:scale web=1
@@ -50,7 +48,15 @@ but got this message couldn't find that process type (web) when scaling dynos
 
 so i Installed gunicorn
 
-and managed to deploy to heroku
+Created Procfile
+
+Updated requirements.txt
+
+Logged in to heroku
+
+Initialise git and set a remote for heroku
+
+Pushed to Heroku
 
 ## Credits
 yoniLavi/ci-pp-milestone-riddlemethis
